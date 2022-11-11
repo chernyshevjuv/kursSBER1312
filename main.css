@@ -147,6 +147,7 @@ body {
     font-size: 18px;
     color: #213053;
     height: 60px;
+
     /*width: 400px; /*мое*/
  }
 
@@ -210,6 +211,7 @@ body {
    padding-bottom: 115px;
    padding-right: 60px;
    padding-left: 60px;
+   
    /*text-align: center;
    display: flex;
    justify-content: center;*/
@@ -229,6 +231,7 @@ body {
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
    grid-gap: 2%;
+
    /*display: flex;
    justify-content: space-evenly;*/
 }
@@ -265,7 +268,8 @@ body {
    padding: 30px;
    width: 100px;
    height: 100px;
-   /*transform: scale(1.5,1);*/
+
+   /*transform: scale(1.5,1); трансформация иконки*/
  }
 
 
@@ -324,6 +328,12 @@ body {
    border-radius: 25px;
 }
 
+.features__box h3 {
+   font-size: 48px;
+   margin-top: 0;
+   margin-bottom: 20px;
+}
+
 .features__savings-box {
    background-color: #dc5e26;
    margin-right: 30px;
@@ -342,18 +352,25 @@ body {
    background-repeat: no-repeat;
    background-position:center;
    flex-grow: 1;
-   /*flex-shrink: 0;*/
-   /*width: auto;*/
    max-width: 100%;
    width: 100vh;
+   /*width: 50%;
+   flex-shrink: 0;
+   background-size: cover;
+   background-position: center; ORIGINAL*/
+   
+   
    /*max-width: 100%; 
    width: 500px;*/
+    /*flex-shrink: 0;*/
+   /*width: auto;*/
 }
 
 .promo {
    display: flex;
-   /*justify-content: center;*/
    flex-direction: row;
+
+   /*justify-content: center;*/
    /*flex-shrink: 0;*/
    /*flex-basis: 100%;*/
 }
@@ -367,13 +384,18 @@ body {
    padding-right: 60px;
    padding-left: 60px;
    flex-grow: 1;
+   max-width: 100%;
+   width: 100vh;
+   /*background: #dd5f26;
+   padding: 160px 60px; ORIGINAL*/
+
+
+
    /*height: auto;
    flex-shrink: 0;
    /*width: auto;*/
   /* max-width: 100%;*/
    /*max-height: 100%;*/
-   max-width: 100%;
-   width: 100vh;
 }
 
 .promo__right div{
@@ -526,6 +548,11 @@ body {
 
    .promo__image { 
    height: 500px;
-   width: auto;
+   width: 100%;
+   /*width:auto;*/
+   }
+
+   .features__box h3 {
+      font-size: 36px;
    }
 }
